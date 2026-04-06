@@ -1,5 +1,5 @@
 # ClusterRunner
-![Logo](ClusterRunner_icon.png)
+![Logo](https://github.com/algotom/clusterrunner/raw/main/ClusterRunner_icon.png)
 
 ---
 *GUI software for submitting and managing Python jobs on Slurm Clusters*
@@ -27,31 +27,31 @@ Features
   interactive login such as Duo) without using the terminal. Users do not need to 
   log in to a submission node manually; everything is done through the GUI.
 
-  ![Fig_1](figs/fig1.png)
+  ![Fig_1](https://github.com/algotom/clusterrunner/raw/main/figs/fig1.png)
 
 - Automatic input form generation: load an argparse-based Python script and the 
   GUI automatically builds input fields from its arguments. This is especially 
   useful for command-line data processing workflows, which is the main purpose 
   of this GUI. For non-argparse scripts (tick "Show all .py"), users simply submit them to the cluster.
 
-  ![Fig_2](figs/fig2.png)
+  ![Fig_2](https://github.com/algotom/clusterrunner/raw/main/figs/fig2.png)
 
 - Easy job submission: choose CPU/GPU, memory, and runtime, then submit jobs with a single click.
 
-  ![Fig_3](figs/fig3.png)
+  ![Fig_3](https://github.com/algotom/clusterrunner/raw/main/figs/fig3.png)
 
 - Batch jobs made simple: run multiple jobs at once by providing lists of input values.
 
-  ![Fig_4](figs/fig4.png)
+  ![Fig_4](https://github.com/algotom/clusterrunner/raw/main/figs/fig4.png)
   
 - Built-in job monitor: view job status, cancel jobs, and check output/error logs directly within the GUI.
 
-  ![Fig_5](figs/fig5.png)
+  ![Fig_5](https://github.com/algotom/clusterrunner/raw/main/figs/fig5.png)
 
 - Built-in script editor: edit Python scripts directly inside the application, no need for external editors 
   like VS Code or Vim. Compare two scripts side-by-side to track modifications or validate parameter changes.
 
-  ![Fig_6](figs/fig6.png)
+  ![Fig_6](https://github.com/algotom/clusterrunner/raw/main/figs/fig6.png)
 
 Installation
 ============
@@ -121,4 +121,4 @@ Usage
 - Tick "List" option to accept a list of values for submitting multiple-jobs.
 
 - By default, ClusterRunner picks and displays ArgParse-based scripts. However, users 
-  can choose to display all Python scripts by ticking the box "Show all .py"
+  can choose to display all Python scripts by ticking the box "Show all .py".
