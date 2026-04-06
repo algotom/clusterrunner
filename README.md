@@ -2,7 +2,9 @@
 ![Logo](https://github.com/algotom/clusterrunner/raw/main/ClusterRunner_icon.png)
 
 ---
+
 *GUI software for submitting and managing Python jobs on Slurm Clusters*
+
 ---
 
 Motivation
