@@ -10,15 +10,14 @@
 Motivation
 ==========
 
-In facilities with a SLURM cluster high-performance computing (HPC) system, to run a Python 
-script users have to log in (ssh) to a submission node and write a *sbatch* script to 
+In facilities with a SLURM cluster high-performance computing (HPC) system, to run Python 
+scripts users have to log in (ssh) to a submission node and write a *sbatch* script to 
 request resources and submit the Python scripts, then use SLURM commands to 
 manage jobs. This is inconvenient and inefficient, particularly for those who 
 are not experienced with running jobs on a cluster. This GUI is designed to 
-make submitting and managing jobs on a cluster easy for anyone who has access 
-to the cluster and wants to make the most of it.
+make submitting and managing Python jobs on a cluster easy for anyone with cluster access.
 
-This GUI was originally built to support running tomography data processing workflows on 
+The GUI was originally built to support running tomography data processing workflows on 
 clusters, driven by very high data generation rates of synchrotron-based 
 tomography beamlines (20–100 GB/minute).
 
