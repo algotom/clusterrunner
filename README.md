@@ -68,7 +68,7 @@ pip install clusterrunner
 ```
 Using conda:
 ```commandline
-conda install -c algotom clusterrunner
+conda install -c conda-forge clusterrunner
 ```
 Once installed, launching Cluster-Runner with
 ```commandline
